@@ -22,7 +22,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>CAJA CANDE</title>
+        <title>Sistema de Caja</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -58,7 +58,7 @@
     <body>
         <header>
         <div class="infor mb-0">
-            <h3 class="m-0">MULTICOMP&nbsp;</h3>
+            <h3 class="m-0">Programador Ríos&nbsp;</h3>
         </div>
             <?php 
             require_once '../add/navbar.php';
