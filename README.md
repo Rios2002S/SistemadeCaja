@@ -39,5 +39,5 @@ Este sistema ofrece una solución integral para la gestión de ventas y caja, as
 
 Algunos Ejemplos de dicho sistema.
 
-Mayor información rios222002@gmail.com
+Mayor información softcraftrivers@outlook.com
 
