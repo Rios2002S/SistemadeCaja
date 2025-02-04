@@ -36,6 +36,7 @@ Este sistema ofrece una solución integral para la gestión de ventas y caja, as
 ![Login](uploads/p1.png)
 ![Interfaz](uploads/p2.png)
 ![Interfaz](uploads/p4.png)
+![Interfaz](uploads/p5.png)
 
 Algunos Ejemplos de dicho sistema.
 
