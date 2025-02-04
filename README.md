@@ -37,4 +37,7 @@ Este sistema ofrece una solución integral para la gestión de ventas y caja, as
 ![Interfaz](uploads/p2.png)
 ![Interfaz](uploads/p4.png)
 
+Algunos Ejemplos de dicho sistema.
+
+Mayor información rios222002@gmail.com
 
