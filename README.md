@@ -33,4 +33,6 @@ Integración de AJAX para edición y actualización de datos sin recargar la pá
 Uso de DataTables para una visualización clara y dinámica de la información.
 Este sistema ofrece una solución integral para la gestión de ventas y caja, asegurando un control eficiente del dinero y del inventario.
 
+![Descripción de la imagen](uploads/p1.png)
+
 
