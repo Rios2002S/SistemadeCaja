@@ -4,7 +4,7 @@
           <span class="close-btn" onclick="closeMenu()">&times;</span>
           <div class="username">
               <!-- Logo sobre el nombre -->
-              <img src="https://i.ibb.co/Wk0yv3N/grupomulticomp.png" alt="Logo" class="user-logo">
+              <img src="https://i.ibb.co/Z6sx6B0T/Captura-de-pantalla-2025-02-04-144425-removebg-preview.png" alt="Logo" class="user-logo">
               <?php echo htmlspecialchars($nombreu); ?>
           </div>                          
             <?php if ($es_admin): ?>
