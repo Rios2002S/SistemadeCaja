@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con DataTables</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <h4>Productos Disponibles</h4>
+        <table id="productosTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Stock Disponible</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Regulador de Voltaje</td>
+                    <td>$21.75</td>
+                    <td>10</td>
+                    <td><button class="btn btn-success btn-sm">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Adaptador de Corriente</td>
+                    <td>$20.00</td>
+                    <td>5</td>
+                    <td><button class="btn btn-success btn-sm">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Cámara de Vigilancia</td>
+                    <td>$79.00</td>
+                    <td>3</td>
+                    <td><button class="btn btn-success btn-sm">Agregar</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Cargador DUAL USB</td>
+                    <td>$6.00</td>
+                    <td>15</td>
+                    <td><button class="btn btn-success btn-sm">Agregar</button></td>
+                </tr>
+                <!-- Agrega más filas según sea necesario -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#productosTable').DataTable({
+                "pageLength": 10, // Número de elementos por página
+                "lengthMenu": [5, 10, 15, 20], // Opciones de elementos por página
+                "language": {
+                    "search": "Buscar:",
+                    "lengthMenu": "Mostrar _MENU_ elementos por página",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ elementos",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Último",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
